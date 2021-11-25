@@ -1,6 +1,6 @@
 ls -l /bin
 ls -l /tmp
-ls -l /etc | grep -v -i "^t"
+ls -l /etc | grep 't.' | sort -r
 ls -l -r /dev | grep -v -i "^tty{,5}$"
 ls -l -r /dev | grep -v -i "^tty{1, 2, 3, 4}$"
 
@@ -18,3 +18,4 @@ mkdir -p Prueba/dir1/dir11 Prueba/dir2 Prueba/dir3/dir31/dir31
 
 tee dir1/mensaje dir2/mensaje dir3/mensaje < mensaje
 ls -R
+cp -a /etc/rc.d Prueba/dir3/dir31
