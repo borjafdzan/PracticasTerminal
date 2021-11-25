@@ -1,7 +1,7 @@
 ls -l /bin
 ls -l /tmp
 ls -l /etc | grep 't.' | sort -r
-ls -l -r /dev | grep -v -i "^tty{,5}$"
+ls -l  /dev | grep 'tt.' | grep '[A-Za-z]{5}'
 ls -l -r /dev | grep -v -i "^tty{1, 2, 3, 4}$"
 
 ls -a /
