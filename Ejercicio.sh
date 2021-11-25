@@ -23,3 +23,4 @@ cp -a /etc/rc.d Prueba/dir3/dir31
 cp -R /home/usuario1 dir11
 mv Prueba/dir3/dir31/* Prueba/dir2
 ls -R /home
+mv dir3/mensaje dir3/.mensaje
