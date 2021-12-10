@@ -66,3 +66,7 @@ ls /bin | grep '^u' | xargs cp Prueba/dir3/enlacedir1/nuevo1
 ln fich1 Prueba/dir1/enlace
 ln fich1 Prueba/dir2/enlace
 #35
+rm fich1
+cp Prueba/dir1/enlace Prueba/dir3
+#36
+
