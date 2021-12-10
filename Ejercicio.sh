@@ -77,3 +77,7 @@ cp ../fich1 enlafich1/dir311
 cat enlafich1/dir311/fich1
 #39
 rm enlafich1/fich1
+#40
+cd
+rm -R Prueba
+
