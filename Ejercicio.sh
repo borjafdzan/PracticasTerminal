@@ -71,4 +71,9 @@ cp Prueba/dir1/enlace Prueba/dir3
 #36
 ln -s ~/Prueba/dir2 Prueba/dir1/enlafich1
 #37
-
+cd ~/Prueba/dir1
+cp ../fich1 enlafich1/dir311
+#38
+cat enlafich1/dir311/fich1
+#39
+rm enlafich1/fich1
