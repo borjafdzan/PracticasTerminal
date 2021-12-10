@@ -54,3 +54,5 @@ rm -R dir1/
 cp /dev | grep '^t' | grep '[a-b]$' | grep -x '.\{5\}' | xargs cp -p Prueba/dir3/dir31/
 #29
 ls Prueba/dir2/dir312 | grep -v '^t' | grep '^...[q]' | xargs rm -fr
+#30
+mv Prueba/dir2/dir312 Prueba/dir3
