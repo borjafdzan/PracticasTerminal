@@ -1,8 +1,8 @@
 ls -l /bin
 ls -l /tmp
 ls -l /etc | grep '^t' | sort -r
-ls -l  /dev | grep 'tt.' | grep '[A-Za-z]{5}'
-ls /dev | grep '^tty' | grep -x '.\{5\}'
+s /dev | grep '^tty' | grep -x '.\{5\}'
+ls /dev | grep '^tty' | grep -x '[1-4]$'
 ls $HOME | grep '^t' | grep 'C1$'
 ls -a /
 ls -a /etc | grep -v -i "^t"
