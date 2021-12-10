@@ -15,8 +15,8 @@ pwd
 lm -i
 rm -R Prueba/*
 mkdir -p Prueba/{dir1/dir11,dir2,dir3/dir31/{dir311,dir312}}
-
-tee dir1/mensaje dir2/mensaje dir3/mensaje < mensaje
+xargs -n 1 cp -v mensaje <<< "Prueba/dir1/ Prueba/dir2/ Prueba/dir3/"
+ls -R Prueba
 ls -R
 cp -a /etc/rc.d Prueba/dir3/dir31
 
