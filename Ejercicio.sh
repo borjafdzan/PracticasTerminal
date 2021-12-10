@@ -86,3 +86,5 @@ mkdir Prueba/{dir1,dir2}
 chmod a-w Prueba/dir2
 #43
 chmod 733 Prueba/dir2
+#44
+ls -l Prueba/
