@@ -98,3 +98,5 @@ ls -l Prueba/dir2
 #48
 cd Prueba/dir3
 pwd
+#49
+ls -ld ~/Prueba/dir3
