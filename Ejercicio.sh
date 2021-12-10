@@ -13,7 +13,7 @@ date
 cd
 pwd
 lm -i
-rm -R Prueba
+rm -R Prueba/*
 
 
 tee dir1/mensaje dir2/mensaje dir3/mensaje < mensaje
