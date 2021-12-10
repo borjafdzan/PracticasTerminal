@@ -106,3 +106,7 @@ umask 774
 mkdir dira dirb dirc dird
 #52
 ls -l
+#53
+touch uno
+chmod a-r uno
+rm uno
