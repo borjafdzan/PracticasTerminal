@@ -81,7 +81,7 @@ rm enlafich1/fich1
 cd
 rm -R Prueba/*
 #41
-mkdir Prueba/{dir1,dir2}
+mkdir Prueba/{dir3,dir2}
 #42
 chmod a-w Prueba/dir2
 #43
@@ -95,3 +95,6 @@ chmod -w Prueba/dir2
 mkdir Prueba/dir2/dir21
 #47
 ls -l Prueba/dir2
+#48
+cd Prueba/dir3
+pwd
