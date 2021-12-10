@@ -60,3 +60,9 @@ mv Prueba/dir2/dir312 Prueba/dir3
 ln -s ~/Prueba/dir1 ~/Prueba/dir3/enlacedir1
 #32
 mkdir Prueba/dir3/enlacedir1/nuevo1
+#33
+ls /bin | grep '^u' | xargs cp Prueba/dir3/enlacedir1/nuevo1
+#34
+ln fich1 Prueba/dir1/enlace
+ln fich1 Prueba/dir2/enlace
+#35
