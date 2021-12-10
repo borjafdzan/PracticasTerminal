@@ -52,3 +52,5 @@ mv dir3/mensaje dir3/.mensaje
 rm -R dir1/
 #28
 cp /dev | grep '^t' | grep '[a-b]$' | grep -x '.\{5\}' | xargs cp -p Prueba/dir3/dir31/
+#29
+ls Prueba/dir2/dir312 | grep -v '^t' | grep '^...[q]' | xargs rm -fr
