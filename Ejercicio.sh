@@ -82,3 +82,5 @@ cd
 rm -R Prueba/*
 #41
 mkdir Prueba/{dir1,dir2}
+#42
+chmod a-w Prueba/dir2
