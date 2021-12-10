@@ -2,7 +2,7 @@ ls -l /bin
 ls -l /tmp
 ls -l /etc | grep '^t' | sort -r
 ls -l  /dev | grep 'tt.' | grep '[A-Za-z]{5}'
-ls -l -r /dev | grep -v -i "^tty{1, 2, 3, 4}$"
+ls /dev | grep '^tty' | grep -x '.\{5\}'
 ls $HOME | grep '^t' | grep 'C1$'
 ls -a /
 ls -a /etc | grep -v -i "^t"
