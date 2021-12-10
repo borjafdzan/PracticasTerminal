@@ -100,3 +100,9 @@ cd Prueba/dir3
 pwd
 #49
 ls -ld ~/Prueba/dir3
+#50
+umask 774
+#51
+mkdir dira dirb dirc dird
+#52
+ls -l
