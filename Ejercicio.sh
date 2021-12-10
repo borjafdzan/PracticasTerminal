@@ -43,9 +43,12 @@ ls /bin | grep '^.[a]' | grep -x '.\{5\}' | xargs cp -p Prueba/dir3/dir31/dir311
 #23
 cp -R /home/usuario1 Prueba/dir1/dir11
 #24
-
 mv Prueba/dir3/dir31/* Prueba/dir2
+#25
 ls -R /home
+#26
 mv dir3/mensaje dir3/.mensaje
+#27
 rm -R dir1/
-cp /dev | grep '^t' | grep '\[a-b]' | grep '[A-Za-z]{5}' | xargs cp -t Prueba/dir3/dir31/
+#28
+cp /dev | grep '^t' | grep '[a-b]$' | grep -x '.\{5\}' | xargs cp -p Prueba/dir3/dir31/
