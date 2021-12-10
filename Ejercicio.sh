@@ -79,5 +79,6 @@ cat enlafich1/dir311/fich1
 rm enlafich1/fich1
 #40
 cd
-rm -R Prueba
-
+rm -R Prueba/*
+#41
+mkdir Prueba/{dir1,dir2}
