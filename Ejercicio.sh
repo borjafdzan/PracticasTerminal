@@ -69,4 +69,6 @@ ln fich1 Prueba/dir2/enlace
 rm fich1
 cp Prueba/dir1/enlace Prueba/dir3
 #36
+ln -s ~/Prueba/dir2 Prueba/dir1/enlafich1
+#37
 
