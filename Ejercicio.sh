@@ -90,3 +90,7 @@ chmod 733 Prueba/dir2
 ls -l Prueba/
 #45
 mkdir Prueba/dir2/dir21
+#46
+chmod -w Prueba/dir2
+mkdir Prueba/dir2/dir21
+
