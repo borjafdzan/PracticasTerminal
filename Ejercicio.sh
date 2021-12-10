@@ -57,4 +57,6 @@ ls Prueba/dir2/dir312 | grep -v '^t' | grep '^...[q]' | xargs rm -fr
 #30
 mv Prueba/dir2/dir312 Prueba/dir3
 #31
-ln -s Prueba/dir1 Prueba/dir3
+ln -s ~/Prueba/dir1 ~/Prueba/dir3/enlacedir1
+#32
+mkdir Prueba/dir3/enlacedir1/nuevo1
