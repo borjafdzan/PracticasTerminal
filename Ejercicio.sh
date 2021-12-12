@@ -162,3 +162,5 @@ find -name usuario | xargs cp Prueba/correo/menus
 #72
 who
 cat "Hola mundo" | write usuario pts/1
+#73
+touch archivo
