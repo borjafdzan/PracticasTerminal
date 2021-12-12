@@ -141,3 +141,5 @@ ls -l /dev | grep 'tty2'
 ls /dev | grep '^tt'
 #63
 ls -p /usr/bin
+#64
+ls -d $HOME
