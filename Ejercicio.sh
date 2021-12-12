@@ -159,3 +159,5 @@ mkdir -m 053 uno
 mkdir -m 207 uno/uno1
 #71
 find -name usuario | xargs cp Prueba/correo/menus
+#72
+who
