@@ -151,3 +151,5 @@ cd
 ls /usr/include | grep '.h$'
 #67
 ls /bin | grep '^ls'| xargs -n1 sh
+#68
+ls -l -R $HOME
