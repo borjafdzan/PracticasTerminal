@@ -184,3 +184,5 @@ ls -R Prueba | grep 'ai' 2> malos
 time who
 #81
 ps -u root
+#82
+ps -a > procesos.txt
