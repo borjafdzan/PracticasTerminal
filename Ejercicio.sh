@@ -143,3 +143,7 @@ ls /dev | grep '^tt'
 ls -p /usr/bin
 #64
 ls -d $HOME
+#65
+cd /
+find -name root
+cd
