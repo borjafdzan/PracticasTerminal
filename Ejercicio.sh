@@ -101,7 +101,7 @@ pwd
 #49
 ls -ld ~/Prueba/dir3
 #50
-umask 774
+umask 664
 #51
 mkdir dira dirb dirc dird
 #52
@@ -111,14 +111,14 @@ touch uno
 chmod a-r uno
 rm uno
 #54
-chmod 007 Prueba/dir1
+chmod 006 Prueba/dir1
 #55
-mkdir -m 007 Prueba/carpeta1
+mkdir -m 006 Prueba/carpeta1
 umask 666
 touch Prueba/carpeta1/fich1
 umask 226
 touch Prueba/carpeta1/fich2
-mkdir -m 037 Prueba/carpeta2
+mkdir -m 036 Prueba/carpeta2
 umask 066
 touch Prueba/carpeta2/file1
 touch Prueba/carpeta2/file2
@@ -156,7 +156,7 @@ ls -l -R $HOME
 #69
 mkdir -m 053 uno
 #70
-mkdir -m 207 uno/uno1
+mkdir -m 206 uno/uno1
 #71
 find -name usuario | xargs cp Prueba/correo/menus
 #72
@@ -166,3 +166,9 @@ cat "Hola mundo" | write usuario pts/1
 touch archivo
 #74
 cat /etc/motd
+#75
+
+#76
+mkdir Prueba/carpeta
+chmod 333 Prueba/carpeta
+ls -R >> Prueba/carpeta1/direc
