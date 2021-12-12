@@ -155,3 +155,5 @@ ls /bin | grep '^ls'| xargs -n1 sh
 ls -l -R $HOME
 #69
 mkdir -m 053 uno
+#70
+mkdir -m 207 uno/uno1
