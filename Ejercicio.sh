@@ -186,3 +186,5 @@ time who
 ps -u root
 #82
 ps -a > procesos.txt
+#83
+pwd >> procesos.txt
