@@ -171,9 +171,12 @@ cat /etc/motd
 #76
 mkdir Prueba/carpeta
 chmod 333 Prueba/carpeta
-ls -R >> Prueba/carpeta1/direc
+ls -R > Prueba/carpeta1/direc
 #77
-ls -R 2>>errores
+ls -R 2>errores
 cat errores
 #78
-ls /etc >> direc
+ls /etc > direc
+#79
+ls -R Prueba | grep 'ai' > nuevalista
+ls -R Prueba | grep 'ai' 2> malos
