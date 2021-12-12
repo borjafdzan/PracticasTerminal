@@ -196,3 +196,5 @@ top
 ps -ef
 #87
 cat /etc/passwd
+#88
+cat /etc/passwd | grep "/bin/bash"
