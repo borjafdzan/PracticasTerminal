@@ -175,3 +175,5 @@ ls -R >> Prueba/carpeta1/direc
 #77
 ls -R 2>>errores
 cat errores
+#78
+ls /etc >> direc
