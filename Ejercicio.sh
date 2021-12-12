@@ -112,3 +112,14 @@ chmod a-r uno
 rm uno
 #54
 chmod 007 Prueba/dir1
+#55
+mkdir -m 007 Prueba/carpeta1
+umask 666
+touch Prueba/carpeta1/fich1
+umask 226
+touch Prueba/carpeta1/fich2
+mkdir -m 037 Prueba/carpeta2
+umask 066
+touch Prueba/carpeta2/file1
+touch Prueba/carpeta2/file2
+#56
