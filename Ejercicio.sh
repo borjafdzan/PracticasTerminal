@@ -172,3 +172,6 @@ cat /etc/motd
 mkdir Prueba/carpeta
 chmod 333 Prueba/carpeta
 ls -R >> Prueba/carpeta1/direc
+#77
+ls -R 2>>errores
+cat errores
