@@ -149,3 +149,5 @@ find -name root
 cd
 #66
 ls /usr/include | grep '.h$'
+#67
+ls /bin | grep '^ls'| xargs -n1 sh
