@@ -202,3 +202,5 @@ cat /etc/passwd | grep "/bin/bash"
 users
 #90
 cat prueba.txt | grep -i '^l'
+#91
+cat prueba.txt | grep -i '^l' | nl | tail -1 | awk '{print $1}'
