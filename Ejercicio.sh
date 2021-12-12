@@ -123,3 +123,7 @@ umask 066
 touch Prueba/carpeta2/file1
 touch Prueba/carpeta2/file2
 #56
+
+#57
+pwd
+mkdir correo fuentes
