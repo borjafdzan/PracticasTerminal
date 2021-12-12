@@ -110,3 +110,5 @@ ls -l
 touch uno
 chmod a-r uno
 rm uno
+#54
+chmod 007 Prueba/dir1
