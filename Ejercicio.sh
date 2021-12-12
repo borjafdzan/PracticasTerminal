@@ -190,3 +190,5 @@ ps -a > procesos.txt
 pwd >> procesos.txt
 #84
 ps -a
+#85
+top
