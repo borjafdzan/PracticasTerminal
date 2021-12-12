@@ -180,3 +180,5 @@ ls /etc > direc
 #79
 ls -R Prueba | grep 'ai' > nuevalista
 ls -R Prueba | grep 'ai' 2> malos
+#80
+time who
