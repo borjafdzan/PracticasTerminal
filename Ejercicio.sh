@@ -164,3 +164,5 @@ who
 cat "Hola mundo" | write usuario pts/1
 #73
 touch archivo
+#74
+cat /etc/motd
