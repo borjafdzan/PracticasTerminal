@@ -139,3 +139,5 @@ ls Prueba/fuentes/ | grep '[2-9]$' | xargs rm -fr
 ls -l /dev | grep 'tty2'
 #62
 ls /dev | grep '^tt'
+#63
+ls -p /usr/bin
