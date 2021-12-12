@@ -157,3 +157,5 @@ ls -l -R $HOME
 mkdir -m 053 uno
 #70
 mkdir -m 207 uno/uno1
+#71
+find -name usuario | xargs cp Prueba/correo/menus
