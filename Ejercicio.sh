@@ -5,7 +5,7 @@ ls -l /tmp
 #3
 ls -l /etc | grep '^t' | sort -r
 #4
-s /dev | grep '^tty' | grep -x '.\{5\}'
+ls /dev | grep '^tty' | grep -x '.\{5\}'
 #5
 ls /dev | grep '^tty' | grep -x '[1-4]$'
 #6
@@ -137,3 +137,5 @@ cd
 ls Prueba/fuentes/ | grep '[2-9]$' | xargs rm -fr
 #61
 ls -l /dev | grep 'tty2'
+#62
+ls /dev | grep '^tt'
