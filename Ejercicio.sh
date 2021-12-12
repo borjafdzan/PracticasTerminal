@@ -194,3 +194,5 @@ ps -a
 top
 #86
 ps -ef
+#87
+cat /etc/passwd
