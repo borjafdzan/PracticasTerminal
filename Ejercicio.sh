@@ -192,3 +192,5 @@ pwd >> procesos.txt
 ps -a
 #85
 top
+#86
+ps -ef
