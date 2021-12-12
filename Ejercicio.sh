@@ -188,3 +188,5 @@ ps -u root
 ps -a > procesos.txt
 #83
 pwd >> procesos.txt
+#84
+ps -a
