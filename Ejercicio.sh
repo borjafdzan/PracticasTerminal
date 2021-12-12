@@ -147,3 +147,5 @@ ls -d $HOME
 cd /
 find -name root
 cd
+#66
+ls /usr/include | grep '.h$'
