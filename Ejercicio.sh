@@ -200,3 +200,5 @@ cat /etc/passwd
 cat /etc/passwd | grep "/bin/bash"
 #89
 users
+#90
+cat prueba.txt | grep -i '^l'
