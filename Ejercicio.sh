@@ -136,3 +136,4 @@ mkdir ../correo/menus
 cd
 ls Prueba/fuentes/ | grep '[2-9]$' | xargs rm -fr
 #61
+ls -l /dev | grep 'tty2'
