@@ -127,3 +127,7 @@ touch Prueba/carpeta2/file2
 #57
 pwd
 mkdir correo fuentes
+#58
+cd fuentes
+mkdir dir1 dir2 dir3
+#59
