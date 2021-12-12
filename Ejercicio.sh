@@ -153,3 +153,5 @@ ls /usr/include | grep '.h$'
 ls /bin | grep '^ls'| xargs -n1 sh
 #68
 ls -l -R $HOME
+#69
+mkdir -m 053 uno
