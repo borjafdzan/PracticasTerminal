@@ -161,3 +161,4 @@ mkdir -m 207 uno/uno1
 find -name usuario | xargs cp Prueba/correo/menus
 #72
 who
+cat "Hola mundo" | write usuario pts/1
