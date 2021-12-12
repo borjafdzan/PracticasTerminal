@@ -132,3 +132,7 @@ cd fuentes
 mkdir dir1 dir2 dir3
 #59
 mkdir ../correo/menus
+#60
+cd
+ls Prueba/fuentes/ | grep '[2-9]$' | xargs rm -fr
+#61
